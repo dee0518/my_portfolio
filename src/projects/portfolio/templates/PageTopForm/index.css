@@ -1,0 +1,26 @@
+.page-top-form-title {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.page-top-form-text {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 1280px){
+    .page-top-form-title {
+        margin-bottom: 15px;
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .page-top-form-text {
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

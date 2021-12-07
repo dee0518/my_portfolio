@@ -1,0 +1,24 @@
+.content-view-wrap {
+    padding: 60px 15px 30px 80px;
+}
+
+@media screen and (min-width : 768px){
+    .content-view-wrap {
+        padding: 100px 25px 40px 90px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .content-view-wrap {
+        padding-left: 105px;
+        padding-right: 40px; 
+        transition: padding-left ease 0.3s;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .content-view-wrap {
+        padding: 130px 180px 40px 300px;
+        transition: padding-left ease 0.3s;
+    }
+}

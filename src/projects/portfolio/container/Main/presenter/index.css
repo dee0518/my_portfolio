@@ -1,0 +1,314 @@
+/* introduce */
+.introduce-wrap {
+    margin-bottom: 80px;
+}
+
+.page-top-form-title .bg {
+    position: relative;
+}
+
+.page-top-form-title .bg:after {
+    content: "";
+    position: absolute;
+    right: -50px;
+    bottom: -13px;
+    z-index: -1;
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: url(../../../../../assets/image/portfolio/bg_piece.svg) no-repeat;
+    background-size: contain;
+}
+
+.introduce-wrap .email, .introduce-wrap .phone {
+    padding-left: 22px;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: underline;
+    background: url(../../../../../assets/image/portfolio/mail.svg) no-repeat;
+    background-size: 16px;
+    background-position: left center;
+}
+
+.introduce-wrap .phone {
+    margin-top: 5px;
+    background-image: url(../../../../../assets/image/portfolio/phone.svg);
+    background-size: 14px;
+    background-position: 1px center;
+}
+
+/* list */
+.list-title-form .right-layout {
+    display: none;
+}
+
+.list-contents {
+    padding: 10px 0 20px;
+}
+
+.list-contents .list-item {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+.list-contents .list-item:nth-child(2n) {
+    background: #000;
+    color: #fff;
+}
+
+.list-contents .list-item .status {
+    margin-bottom: 50px;
+    font-size: 12px;
+}
+
+.list-contents .list-item .title {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.list-contents .list-item .content {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.list-contents .list-item .date-alarm {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 12px;
+}
+
+@media screen and (min-width : 768px){
+    /* introduce */
+    .introduce-wrap {
+        margin-bottom: 120px;
+    }
+
+    .introduce-wrap .page-top-form-text span span {
+        display: block;
+    }
+
+    /* list */
+    .list-title-form {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list-title-form .right-layout {
+        display: block;
+    }
+    
+    .list-title-form .type-btn {
+        border: none;
+        width: 30px;
+        height: 30px;
+        text-indent: -9999px;
+        background: #fff url(../../../../../assets/image/portfolio/list_card_off.svg) no-repeat;
+        background-position: center;
+        background-size: 16px;
+    }
+    
+    .list-title-form .type-btn:last-child {
+        margin-left: 5px;
+        background-image: url(../../../../../assets/image/portfolio/list_table_off.svg);
+    }
+    
+    .list-title-form .type-btn.on {
+        background-image: url(../../../../../assets/image/portfolio/list_card_on.svg);
+    }
+    
+    .list-title-form .type-btn.on:last-child {
+        background-image: url(../../../../../assets/image/portfolio/list_table_on.svg);
+    }
+
+    /* list-card */
+    .list-contents.card {
+        display: flex;
+        width: 100%;
+    }
+    
+    .list-contents.card .list-item {
+        position: relative;
+        width: calc((100% - 20px)/3);
+        height: 200px;
+        padding: 10px;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    
+    .list-contents.card .list-item .status {
+        margin-bottom: 100px;
+    }
+    
+    .list-contents.card .list-item .content {
+        display:-webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient:vertical;
+        width:100%;
+        height:40px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+
+    /* list-table */
+    .list-contents.table {
+        padding: 0 0 50px;
+    }
+    
+    .list-contents.table .list-item {
+        display: flex;
+        padding: 15px 0;
+        margin-bottom: 0;
+        border-bottom: 1px solid #aeaeae;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        background: none;
+        text-align: center;
+    }
+
+    .list-contents.table .list-item:nth-child(2n) {
+        color: #000;
+    }
+    
+    .list-contents.table .list-item .status {
+        width: 80px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .list-contents.table .list-item .title {
+        width: calc((100% - 180px) * 0.25);
+        margin-bottom: 0;
+        padding: 0 5px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        line-height: 20px;
+        font-weight: normal;
+    }
+    
+    .list-contents.table .list-item .content {
+        width: calc((100% - 180px) * 0.75);
+        padding: 0 5px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+    
+    .list-contents.table .list-item .date-alarm {
+        position: static;
+        width: 100px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    /* introduce */
+    .introduce-wrap {
+        margin-bottom: 115px;
+    }
+
+    .page-top-form-title .bg:after {
+        right: -60px;
+        bottom: -5px;
+        width: 337px;
+        height: 65px;
+    }
+
+    .introduce-wrap .email, .introduce-wrap .phone {
+        padding-left: 30px;
+        font-size: 16px;
+        line-height: 24px;
+        background-size: 19px;
+    }
+
+    .introduce-wrap .phone {
+        margin-top: 10px;
+        background-size: 16px;
+    }
+
+    /* list */
+    .list-title-form .type-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* list-card */
+    .list-contents.card {
+        overflow-x: scroll;
+        padding-top: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .list-contents.card .list-item {
+        width: 250px;
+        height: 300px;
+        padding: 20px 15px 15px;
+        margin-right: 20px;
+    }
+
+    .list-contents.card .list-item .status {
+        margin-bottom: 166px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .list-contents.card .list-item .title {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+    .list-contents.card .list-item .content {
+        width:220px;
+        height:53px;
+    }
+
+    .list-contents.card .list-item .date-alarm {
+        top: 15px;
+        right: 15px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* list-table */
+    .list-contents.table .list-item {
+        padding: 30px 0;
+    }
+    
+    .list-contents.table .list-item .status {
+        width: 100px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .list-contents.table .list-item .title {
+        width: calc((100% - 240px) * 0.2);
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .list-contents.table .list-item .content {
+        width: calc((100% - 240px) * 0.8);
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .list-contents.table .list-item .date-alarm {
+        width: 140px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

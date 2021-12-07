@@ -1,0 +1,17 @@
+.list-title-form {
+    border-bottom : 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.list-title-form .list-title {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+@media screen and (min-width : 1280px){
+    .list-title-form .list-title {
+        font-size: 20px;
+        line-height: 50px;
+    }
+}

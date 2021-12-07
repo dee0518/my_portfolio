@@ -1,0 +1,111 @@
+/* url button */
+.url-btn {
+    display: inline-block;
+    margin-bottom: 115px;
+    padding: 12px 15px;
+    background: #000;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    transition: background ease 0.3s;
+}
+
+.url-btn:hover {
+    background: #4260B9;
+    transition: background ease 0.3s;
+}
+
+/* history */
+.history-table {
+    position: relative;
+}
+
+.history-table:before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 20px;
+    display: block;
+    width: 4px;
+    height: calc(100% - 40px);
+    background: #000;
+}
+
+.history-item {
+    display: flex;
+    padding: 15px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.history-item:last-child {
+    border-bottom: 1px solid #aeaeae;
+}
+
+.history-item .content {
+    position: relative;
+    width: calc(100% - 90px);
+    padding-left: 20px;
+}
+
+.history-item .content:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-top: -6px;
+    background: url(../../../../../assets/image/portfolio/history_one.svg) no-repeat;
+    background-size: contain;
+}
+
+.history-item .date {
+    width: 90px;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    .project-detail-wrap .text-block {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .url-btn {
+        margin-bottom: 115px;
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    /* history */
+    .history-table:before {
+        left: 8px;
+        top: 25px;
+        height: calc(100% - 60px);
+    }
+
+    .history-item {
+        padding: 20px 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .history-item .content {
+        width: calc(100% - 100px);
+        padding-left: 35px;
+    }
+
+    .history-item .content:after {
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+    }
+
+    .history-item .date {
+        width: 100px;
+        font-size: 14px;
+    }
+}
