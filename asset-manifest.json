@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.d177f87d.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.62ab3351.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.62ab3351.chunk.js.map",
+    "runtime-main.js": "/my_portfolio/static/js/runtime-main.293fcf50.js",
+    "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.293fcf50.js.map",
+    "static/js/2.4395e68b.chunk.js": "/my_portfolio/static/js/2.4395e68b.chunk.js",
+    "static/js/2.4395e68b.chunk.js.map": "/my_portfolio/static/js/2.4395e68b.chunk.js.map",
+    "static/js/3.a1c063a1.chunk.js": "/my_portfolio/static/js/3.a1c063a1.chunk.js",
+    "static/js/3.a1c063a1.chunk.js.map": "/my_portfolio/static/js/3.a1c063a1.chunk.js.map",
+    "index.html": "/my_portfolio/index.html",
+    "static/css/main.d177f87d.chunk.css.map": "/my_portfolio/static/css/main.d177f87d.chunk.css.map",
+    "static/js/2.4395e68b.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.4395e68b.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/my_portfolio/static/media/NotoSans-Regular.fa11626f.ttf",
+    "static/media/arrow.svg": "/my_portfolio/static/media/arrow.bfc4718d.svg",
+    "static/media/bg_piece.svg": "/my_portfolio/static/media/bg_piece.9f7503ac.svg",
+    "static/media/index.css": "/my_portfolio/static/media/poster.f6c31a2a.jpg",
+    "static/media/home.svg": "/my_portfolio/static/media/home.90000f39.svg",
+    "static/media/list_card_off.svg": "/my_portfolio/static/media/list_card_off.9319c1c0.svg",
+    "static/media/list_card_on.svg": "/my_portfolio/static/media/list_card_on.35409619.svg",
+    "static/media/list_table_off.svg": "/my_portfolio/static/media/list_table_off.6731b13a.svg",
+    "static/media/list_table_on.svg": "/my_portfolio/static/media/list_table_on.3605ad57.svg",
+    "static/media/logo.svg": "/my_portfolio/static/media/logo.49283d29.svg",
+    "static/media/mail.svg": "/my_portfolio/static/media/mail.8ee49148.svg",
+    "static/media/phone.svg": "/my_portfolio/static/media/phone.5268b9e9.svg",
+    "static/media/poster2.jpg": "/my_portfolio/static/media/poster2.c582b76c.jpg",
+    "static/media/poster3.jpg": "/my_portfolio/static/media/poster3.66cb720b.jpg",
+    "static/media/poster4.jpg": "/my_portfolio/static/media/poster4.16da8b71.jpg",
+    "static/media/project.svg": "/my_portfolio/static/media/project.7421760d.svg",
+    "static/media/resume.svg": "/my_portfolio/static/media/resume.dfe3a8ac.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.293fcf50.js",
+    "static/js/2.4395e68b.chunk.js",
+    "static/css/main.d177f87d.chunk.css",
+    "static/js/main.62ab3351.chunk.js"
+  ]
+}
